@@ -138,6 +138,8 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
+![GitHub全自動部署-16.png](https://cloudflare-imgbed-7oz.pages.dev/file/1758991502863_GitHub全自動部署-16.png)
+
 ## 修改package.json文件
   - 打開`package.json`文件
   - 找到`"lint": "markdownlint -c .markdownlint.json source/docs"`這一行
@@ -165,5 +167,5 @@ jobs:
   ```bash
   git add .
   git commit -m "github action update"
-  git push origin main
+  git push origin master
   ```
